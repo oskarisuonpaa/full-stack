@@ -1,5 +1,7 @@
 # full-stack
 This repository contains my coursework for the course Anytime-course: Software Development Skills: Full-Stack 2023-24
+<br>
+You can access the deployed app from this link: [Link to app](https://mean-auth-app.onrender.com).
 
 ## How to run
 To run the final project locally you need to do the following: <br>
