@@ -1,0 +1,26 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "lint": "eslint \"**/*.js\""
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "cors": "*",
+    "express": "*",
+    "express-session": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Oskari Suonpää",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "eslint": "^8.52.0"
+  }
+}
