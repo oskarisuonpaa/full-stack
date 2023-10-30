@@ -51,8 +51,8 @@ router.post("/authenticate", async (request, response) => {
 
   response.json({
     success: true,
-    token: `Bearer ${token}`, // Use this instead if running backend and frontend separately
-    //token,
+    //token: `Bearer ${token}`, // Use this instead if running backend and frontend separately
+    token,
     user,
   });
 });
